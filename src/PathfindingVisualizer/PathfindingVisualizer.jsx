@@ -82,13 +82,13 @@ export default class PathfindingVisualizer extends Component {
           <div className="navbar-brand">
             <span className="brand-name">Path Finding Visualizer</span>
             <span className="brand-name-by"> - Rishikesh Patil</span>
-          </div>
-          <div className="navbar-links">
+          </div>          
+        </nav>
+        <div className="navbar-links">
             <button className="navbar-button" onClick={() => this.visualizeDijkstra()}>
               VISUALIZE DIJKSTRA'S ALGORITHM
             </button>
           </div>
-        </nav>
 
         <div className="grid">
           {grid.map((row, rowIdx) => {

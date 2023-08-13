@@ -1,5 +1,5 @@
 .grid{
-    margin: 100px 0 0;
+    margin: 10px 0 0;
  } 
  /* Reset some default styles */
  body, html {
@@ -29,8 +29,9 @@
     font-size: 13px;
  }
  .navbar-links {
-    display: flex;
-    align-items: center;
+   margin: auto;
+   width: 20%;
+   padding: 10px;
  }
  
  /* Updated button styling */
